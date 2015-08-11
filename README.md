@@ -1,4 +1,9 @@
 # react-gs
+
+<a href="https://www.npmjs.com/package/react-gs">
+  <img src="https://img.shields.io/npm/v/react-gs.svg" alt="react-gs">
+</a>
+    
 Some global styles for use with React
 
 Demo - http://clintonhalpin.github.io/react-gs/examples/#/
