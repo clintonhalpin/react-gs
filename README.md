@@ -1,6 +1,8 @@
 # react-gs
 Some global styles for use with React
 
+Demo - http://clintonhalpin.github.io/react-gs/examples/#/
+
 # get started
 ```
 npm i react-gs --save
