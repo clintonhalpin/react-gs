@@ -1,5 +1,5 @@
 {
-  "name": "react-style-globals",
+  "name": "react-gs",
   "version": "0.1.0",
   "author": "Clinton Halpin <clintonhalpin@gmail.com>",
   "devDependencies": {
@@ -30,8 +30,5 @@
     "prestart": "webpack",
     "start": "webpack-dev-server",
     "build": "webpack"
-  },
-  "dependencies": {
-    "object-assign": "^3.0.0"
   }
 }
