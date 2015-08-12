@@ -12,10 +12,13 @@ export default class Demo extends React.Component {
         <div style={[gs.ff.sanSerif, gs.p._b4]}>
             <div style={[gs.m._b2]}>
                 <h1 style={[gs.fs.xxLarge, gs.fw.normal]}># react-gs</h1>
+                <p>Get started with react-gs by running <span style={gs.ff.monospace}>npm install react-gs --save</span></p>
+            </div>
+            <div style={[gs.m._b2]}>
                 <h1 style={[gs.fs.large, gs.fw.normal]}># ta: Text Align</h1>
-                <div style={gs.ta.left}>Left Align Text</div>
-                <div style={gs.ta.center}>Center Align Text</div>
-                <div style={gs.ta.right}>Right Align Text</div>
+                <div>left</div>
+                <div>center</div>
+                <div>right</div>
                 <hr style={gs.m._t2}/>
             </div>
             <div style={[gs.m._b2]}>
@@ -42,10 +45,10 @@ export default class Demo extends React.Component {
             </div>
             <div style={[gs.m._b2]}>
                 <h1 style={[gs.fs.large, gs.fw.normal]}># fw: Font Weight</h1>
-                <div style={gs.fw.lighter}>lighter</div>
-                <div style={gs.fw.normal}>normal</div>
-                <div style={gs.fw.bold}>bold</div>
-                <div style={gs.fw.bolder}>bolder</div>
+                <div>lighter</div>
+                <div>normal</div>
+                <div>bold</div>
+                <div>bolder</div>
             </div>
             <div style={[gs.m._b2]}>
                 <h1 style={[gs.fs.large, gs.fw.normal]}># m, p: Margin, Padding</h1>
@@ -83,18 +86,18 @@ export default class Demo extends React.Component {
             </div>
             <div style={[gs.m._b2]}>
                 <h1 style={[gs.fs.large, gs.fw.normal]}># ff: Font Family</h1>
-                <div style={gs.ff.sanSerif}>Font Family sanSerif</div>
-                <div style={gs.ff.monospace}>Font Family monospace</div>
+                <div style={gs.ff.sanSerif}>sanSerif</div>
+                <div style={gs.ff.monospace}>monospace</div>
                 <hr style={gs.m._t2}/>
             </div>
             <div style={[gs.m._b2]}>
                 <h1 style={[gs.fs.large, gs.fw.normal]}># fs: Font Size</h1>
-                <div style={gs.fs.xxLarge}>Font Size xxLarge</div>
-                <div style={gs.fs.xLarge}>Font Size xLarge</div>
-                <div style={gs.fs.large}>Font Size large</div>
-                <div style={gs.fs.medium}>Font Size medium</div>
-                <div style={gs.fs.small}>Font Size small</div>
-                <div style={gs.fs.xSmall}>Font Size xSmall</div>
+                <div>xxLarge</div>
+                <div>xLarge</div>
+                <div>large</div>
+                <div>medium</div>
+                <div>small</div>
+                <div>xSmall</div>
                 <hr style={gs.m._t2}/>
             </div>
             <h1 style={[gs.fs.xxLarge, gs.fw.normal]}># Modules</h1>

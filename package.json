@@ -1,7 +1,10 @@
 {
   "name": "react-gs",
-  "version": "0.1.0",
-  "author": "Clinton Halpin <clintonhalpin@gmail.com>",
+  "version": "0.2.0",
+  "author": {
+    "name": "Clinton Halpin",
+    "email": "clintonhalpin@gmail.com"
+  },
   "devDependencies": {
     "radium": "^0.13.7",
     "react": "^0.13.3",
@@ -30,5 +33,28 @@
     "prestart": "webpack",
     "start": "webpack-dev-server",
     "build": "webpack"
-  }
+  },
+  "gitHead": "55e62d9bc89f4463e2fcf950d6c972b97f51ed10",
+  "description": "Some global styles for use with React",
+  "_id": "react-gs@0.1.0",
+  "_shasum": "8b9d00be391246a937f797ac018097f804fa1a2e",
+  "_from": "react-gs@*",
+  "_npmVersion": "2.5.0",
+  "_nodeVersion": "0.10.32",
+  "_npmUser": {
+    "name": "clintonhalpin",
+    "email": "clintonhalpin@gmail.com"
+  },
+  "dist": {
+    "shasum": "8b9d00be391246a937f797ac018097f804fa1a2e",
+    "tarball": "http://registry.npmjs.org/react-gs/-/react-gs-0.1.0.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "clintonhalpin",
+      "email": "clintonhalpin@gmail.com"
+    }
+  ],
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/react-gs/-/react-gs-0.1.0.tgz"
 }
