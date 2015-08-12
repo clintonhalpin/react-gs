@@ -5,6 +5,8 @@ import * as gs from './../../lib/';
 import { Link } from 'react-router';
 import README from './../../README.md';
 
+console.log(README);
+
 console.log(gs)
 
 @Radium

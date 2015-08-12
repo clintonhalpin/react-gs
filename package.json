@@ -58,6 +58,7 @@
   "directories": {},
   "_resolved": "https://registry.npmjs.org/react-gs/-/react-gs-0.1.0.tgz",
   "dependencies": {
+    "highlight.js": "^8.7.0",
     "html-loader": "^0.3.0",
     "markdown-loader": "^0.1.4"
   }
