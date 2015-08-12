@@ -1,6 +1,6 @@
 var getConfig = require('hjs-webpack')
 
-module.exports = getConfig({
+var config = getConfig({
     in: 'src/',
     out: 'examples/',
     clearBeforeBuild: true,
@@ -9,5 +9,11 @@ module.exports = getConfig({
         return {
             'index.html': context.defaultTemplate()
         }
-    }
-})
+    },
+});
+
+var mdLoader = { test: /\.md$/, loader: 'html-loader!markdown-loader' };
+config.module.loaders.push(mdLoader)
+ 
+module.exports = config;
+
