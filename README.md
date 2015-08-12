@@ -33,8 +33,6 @@ gs.ta.center
 gs.ta.right
 ```
 
-=
-
 ## p: Position
 
 ```
@@ -43,8 +41,6 @@ gs.p.static
 gs.p.absolute
 gs.p.fixed
 ```
-
-=
 
 ## d: Display
 
@@ -61,8 +57,6 @@ gs.d.tableColumnGroup
 gs.d.flex
 ```
 
-=
-
 ## fw: Font Weight
 ```
 gs.fw.lighter
@@ -70,43 +64,58 @@ gs.fw.normal
 gs.fw.bold
 gs.fw.bolder
 ```
-=
 
 ## m, p: Margin, Padding
 
 ```
+// 0
+
 gs.[m,p]._0
 gs.[m,p]._t0
 gs.[m,p]._r0
 gs.[m,p]._b0
 gs.[m,p]._l0
+
+// Base
+
 gs.[m,p]._1
 gs.[m,p]._t1
 gs.[m,p]._r1
 gs.[m,p]._b1
 gs.[m,p]._l1
+
+// Base * 2
+
 gs.[m,p]._2
 gs.[m,p]._t2
 gs.[m,p]._r2
 gs.[m,p]._b2
 gs.[m,p]._l2
+
+// Base * 3
+
 gs.[m,p]._3
 gs.[m,p]._t3
 gs.[m,p]._r3
 gs.[m,p]._b3
 gs.[m,p]._l3
+
+// Base * 4
+
 gs.[m,p]._4
 gs.[m,p]._t4
 gs.[m,p]._r4
 gs.[m,p]._b4
 gs.[m,p]._l4
+
+// Left and Right
+
 gs.[m,p]._xn1
 gs.[m,p]._xn2
 gs.[m,p]._xn3
 gs.[m,p]._xn4
 gs.[m,p]._xauto
 ```
-=
 
 ## ff: Font Family
 
@@ -114,7 +123,6 @@ gs.[m,p]._xauto
 gs.ff.sanSerif
 gs.ff.monospace
 ```
-=
 
 ## fs: Font Size
 
@@ -127,7 +135,6 @@ gs.fs.small
 gs.fs.xSmall
 ```
 
-=
 # Modules
 
 ## textTruncate
@@ -135,8 +142,6 @@ gs.fs.xSmall
 ```
 gs.modules.textTruncate
 ```
-
-=
 
 ## flag
 
